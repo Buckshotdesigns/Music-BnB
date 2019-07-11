@@ -4,15 +4,9 @@ import "./Percussion.css";
 import { Link } from "react-router-dom";
 
 class Percussion extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     fetch('http://localhost:3001/api/category/Percussion')
-    //         .then(response => response.json())
-    //         .then(posts => (this.setState({ posts }))
-    //         )
-    // }
+   
     componentDidMount() {
-        axios.get("/api/category/$Percussion")
+        axios.get("/api/category/Percussion")
           .then(res => this.setState({ posts: res.data}))  
       }
     state = {
