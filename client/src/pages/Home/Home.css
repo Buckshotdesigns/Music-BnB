@@ -1,0 +1,83 @@
+.equipment-div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+   
+}
+.react-container {
+    background-color: #ffffff;
+    margin: 0;
+}
+.logo{
+    position: relative;
+    top: 125px;
+    left: 125px;
+    color: #ffffff;
+    
+}
+#main-logo{
+font-size: 80px;
+}
+#category-heading{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding-top: 3rem;
+    border-bottom: 8px solid #ffffff;
+   
+}
+#category-div {
+    background-color: #000000;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 8px solid #ffffff;
+}
+.img-icon {
+    transition: transform .2s;
+}
+.img-icon:hover {
+    transform: scale(1.2);
+}
+
+#image-1 {
+    width: 180px;
+    height: 150px;
+}
+
+#category-heading {
+    font-family: 'Asap Condensed', sans-serif;
+}
+hr {
+    border: 4px solid white;
+}
+.Parent-div{
+width: 25rem;
+margin: 2rem;
+overflow: hidden;
+background-color: #c0c0c0;
+border-radius: 10px;
+box-shadow: 10px 10px 10px #292828;
+}
+#image-top{
+    width: 400px;
+    height: 300px;
+    
+}
+#data-div {
+    padding: 1rem;
+    
+}
+
+h6 {
+    color: whitesmoke;
+}
+
+@media (max-height: 600px) {
+    #category-div {
+        padding-left: 7rem;
+    }
+}

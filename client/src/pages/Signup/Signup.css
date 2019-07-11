@@ -1,0 +1,11 @@
+.container {
+    opacity: 0.9;
+    color: #0f0808;
+    font-weight: bold;
+    font-family: 'Reenie+Beanie';
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}

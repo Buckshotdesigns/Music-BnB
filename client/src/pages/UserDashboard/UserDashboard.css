@@ -1,0 +1,66 @@
+.mainContainer  {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #e9e4dd;
+    border-radius: 25px;
+}
+
+h2 {
+    border-bottom: 2px solid #000000;
+    padding: 3px;
+}
+.posted-item {
+    border-bottom: 3px solid #000000;
+}
+
+.postForm{
+    border-style: solid;
+    margin: 4px;
+
+}
+
+#table-image{
+    max-width:180px;
+  }
+  .react-confirm-alert-overlay {
+    background: none;
+  }
+
+  /* mobile responsive table */
+  @media screen and (max-width: 600px) {
+
+    #card table {
+       border: 0;
+     }
+ 
+    #card table thead {
+       display: none;
+     }
+ 
+    #card table tr {
+       margin-bottom: 20px;
+       display: block;
+       border-bottom: 2px solid #ddd;
+      box-shadow: 2px 2px 1px #dadada;
+ 
+     }
+ 
+    #card table td {
+       display: block;
+       text-align: right;
+       font-size: 13px;
+     }
+ 
+    #card table td:last-child {
+       border-bottom: 0;
+     }
+ 
+    #card table td::before {
+       content: attr(data-label);
+       float: left;
+       text-transform: uppercase;
+       font-weight: bold;
+     }
+         
+ 
+   }
