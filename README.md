@@ -1,8 +1,9 @@
 # Mbnb
-A music equipment rental app.
+
 <p align="center">
 <img width="700" height="450" src="https://user-images.githubusercontent.com/31428973/61822799-72d50a00-ae28-11e9-8e48-9da63b4b4a01.gif">
 </p>
+A music equipment rental app.
 Mbnb is an online rental platform where users who wants to rent music equipments can easily connect with users who have music equipments available to rent.
 
 Mbnb is a perfect platform to spread love of music via connecting users who need musical equipments to users who have musical equipments.
